@@ -1,4 +1,4 @@
-# Program Overview
+## Program Overview
 - The program is an implementation of a classic maze game where the player must navigate the map to reach the goal. 
 - Users can interact with the player character using 'w', 'a', 's' and 'd' keys to navigate the maze to the goal. 
 - The program is launched with the default settings, allowing the user to view the whole map. 
@@ -6,7 +6,7 @@
   of the map while moving across it to reach the goal. 
 - With visibility set, various areas of the map around the player will be revealed as the player advances.
 
-# Purpose of each file in directory
+## Purpose of each file in directory
 -	main.c – Connects all game functionality
 -	map.c map.h – Contains map metadata
 -	generateMap.c generateMap.h – Create map based on metadata
@@ -16,7 +16,7 @@
 -	Makefile – Create maze executable
 -	README – About program
 
-# Dependencies
+## Dependencies
 -	main.c - <stdio.h>, <stdlib.h> “map.h”, “generateMap.h”, “game.h”, “terminal.h”, “visibilityF.h”
 - 	map.c - <stdio.h>, “map.h”
 -	generateMap.c - <stdio.h>, “generateMap.h”
@@ -24,12 +24,12 @@
 -	visibilityF.c - <stdio.h>, <stdlib.h>, “visibilityF.h”
 -	terminal.c - <stdio.h>, <termios.h>, “terminal.h”
 
-# How to run program
+## How to run program
 Step1: Run Makefile by typing ‘make’ in terminal (Must be in program directory)
 Make file will create an executable called maze
 Step2: Run ./maze in terminal
 
-# Running with conditional compilation to enable users set visibility distance (optional)
+## Running with conditional compilation to enable users set visibility distance (optional)
 Step1: Run ‘make DARK=1’ 
 Step2: Run “./maze 2” (You can pass any number)
 
