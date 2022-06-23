@@ -6,16 +6,6 @@
   of the map while moving across it to reach the goal. 
 - With visibility set, various areas of the map around the player will be revealed as the player advances.
 
-## Purpose of each file in directory
--	main.c – Connects all game functionality
--	map.c map.h – Contains map metadata
--	generateMap.c generateMap.h – Create map based on metadata
--	game.c game.h – Contains game logic
--	visibilityF.c visibilityF.h – Display map in terminal based on visibility distance
--	terminal.c terminal.h – Control terminal behavior
--	Makefile – Create maze executable
--	README – About program
-
 ## How to run program
 Step1: Run Makefile by typing ‘make’ in terminal (Must be in program directory)
 Make file will create an executable called maze
