@@ -17,4 +17,4 @@ Step2: Run `./maze 2` (Number represents the visibility area)
 ## Details to note
 1. IF DARK=1 is activated during compilation and user fails to set visibility distance, program 
           runs with default visibility setting which is set to display enitre map.
-2. If user passes a negative value or 0 as an argument program runs with default visibility setting.
+2. If user passes a negative value or 0 as an argument, program runs with default visibility setting.
