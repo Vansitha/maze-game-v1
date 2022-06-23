@@ -7,15 +7,15 @@
 - With visibility set, various areas of the map around the player will be revealed as the player advances.
 
 ## How to run program
-Step1: Run Makefile by typing ‘make’ in terminal (Must be in program directory)
-Make file will create an executable called maze
-Step2: Run ./maze in terminal
+- Step1: Run `make` command
+- Step2: Run `./maze`
 
-## Running with conditional compilation to enable users set visibility distance (optional)
-Step1: Run ‘make DARK=1’ 
-Step2: Run “./maze 2” (You can pass any number)
+## Running with conditional compilation to set visibility distance (optional)
+Step1: Run `make DARK=1` 
+Step2: Run `./maze 2` (Number represents the visibility area)
 
-(Note: 1. IF DARK=1 is activated during compilation and user fails to set visibility distance, program 
+## Details to note
+1. IF DARK=1 is activated during compilation and user fails to set visibility distance, program 
           runs with default visibility setting which is set to display enitre map.
-       2. If user passes a negative value as an argument program runs with default visibility setting.
-       3. If user passes 0 as the argument program runs in with default visibility setting.)
+2. If user passes a negative value as an argument program runs with default visibility setting.
+3. If user passes 0 as the argument program runs in with default visibility setting.)
