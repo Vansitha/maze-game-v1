@@ -16,14 +16,6 @@
 -	Makefile – Create maze executable
 -	README – About program
 
-## Dependencies
--	main.c - <stdio.h>, <stdlib.h> “map.h”, “generateMap.h”, “game.h”, “terminal.h”, “visibilityF.h”
-- 	map.c - <stdio.h>, “map.h”
--	generateMap.c - <stdio.h>, “generateMap.h”
--	game.c - <stdio.h>, “game.h”
--	visibilityF.c - <stdio.h>, <stdlib.h>, “visibilityF.h”
--	terminal.c - <stdio.h>, <termios.h>, “terminal.h”
-
 ## How to run program
 Step1: Run Makefile by typing ‘make’ in terminal (Must be in program directory)
 Make file will create an executable called maze
