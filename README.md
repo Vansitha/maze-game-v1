@@ -6,7 +6,7 @@
   of the map while moving across it to reach the goal. 
 - With visibility set, various areas of the map around the player will be revealed as the player advances.
 
-## How to run program
+## How to run the program
 - Step1: Run `make` command
 - Step2: Run `./maze`
 
