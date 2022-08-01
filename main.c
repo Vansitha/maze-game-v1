@@ -12,20 +12,15 @@ int main(int argc, char *argv[])
 	int mapRow;
 	int mapCol;
 	int **metadataTable;
-
 	char **map;
 	char userInput;
-
 	int initialPlayerPosR;
 	int initialPlayerPosC;
 	int goalR;
 	int goalC;
-
 	int *currPlayerPosR;
 	int *currPlayerPosC;
-
 	int i;
-
 	int visibility;
 
 	getMetadata(&metadataTable, &metadataAmount, &mapRow, &mapCol);
@@ -40,10 +35,8 @@ int main(int argc, char *argv[])
 
 	initialPlayerPosR = metadataTable[0][0];
 	initialPlayerPosC = metadataTable[0][1];
-
 	goalR = metadataTable[1][0];
 	goalC = metadataTable[1][1];
-
 	currPlayerPosR = &initialPlayerPosR;
 	currPlayerPosC = &initialPlayerPosC;
 
